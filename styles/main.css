@@ -1,0 +1,29 @@
+@import url(../fonts/outfit/outfit.css);
+
+:root {
+  --slate-900: hsl(218, 44, 22);
+  --slate-500: hsl(216, 14, 48);
+  --slate-300: hsl(212, 45, 89);
+  --white: hsl(0, 0, 100);
+
+  --spacing-500: 2.5rem;
+  --spacing-300: 1.5rem;
+  --spacing-200: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text-preset-1 {
+  font-family: 'Outfit-Bold';
+  font-size: 1.375rem;
+  letter-spacing: 0;
+}
+
+.text-preset-2 {
+  font-family: 'Outfit-Regular';
+  font-size: 0.9375rem;
+  letter-spacing: 0.2px;
+}

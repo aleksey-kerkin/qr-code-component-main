@@ -1,0 +1,21 @@
+/* outfit */
+@font-face {
+  font-family: 'Outfit-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: local('Outfit Regular'), local('Outfit-Regular'),
+    url(outfit.woff2) format('woff2');
+  font-display: swap;
+}
+
+/* outfit-bold */
+@font-face {
+  font-family: 'Outfit-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  src: local('Outfit Bold'), local('Outfit-Bold'),
+    url(outfit-bold.woff2) format('woff2');
+  font-display: swap;
+}
